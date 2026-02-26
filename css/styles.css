@@ -1,4 +1,26 @@
 .window-body {
   background-color: #fff;
   font-family: Arial, Verdana, Helvetica, Geneva, Tahoma, sans-serif;
+  font-size: 1.25vh;
+}
+
+.LRSec {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.LRSec h3 {
+  font-size: 4em;
+}
+
+.profPic {
+  width: 20vw;
+  height: 20vw;
+  object-fit: contain;
+  background-color: #fff;
+}
+
+.onlinePic {
+  width: 10vw;
+  image-rendering: pixelated;
 }
